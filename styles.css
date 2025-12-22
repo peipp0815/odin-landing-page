@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  max-width: 960px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-links {
+  display: flex;
+}
+
+.footer,
+.information-headline {
+  text-align: center;
+}
+
+.hero {
+  display: flex;
+}
+
+.information-boxes {
+  display: flex;
+}
+
+.cta-box {
+  display: flex;
+}
