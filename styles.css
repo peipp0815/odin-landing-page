@@ -7,13 +7,19 @@
 .body {
   max-width: 960px;
   margin: auto;
-  padding: 0 16px;
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 16px 0;
+  padding: 16px 16px;
+  background-color: #1f2937;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 .header-links {
@@ -21,37 +27,54 @@
   gap: 16px;
 }
 
-.information-headline {
-  text-align: center;
+.header-links a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .hero {
   display: flex;
-  padding: 64px 0;
+  padding: 64px 16px;
+  background-color: #1f2937;
+}
+
+.hero-main {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.button {
+  background-color: #3882f6;
+  padding: 8px 32px;
+  border: none;
+  color: #f9faf8;
+  border-radius: 10px;
+}
+
+.information-headline {
+  text-align: center;
 }
 
 .information-boxes {
   display: flex;
 }
 
-.cta-box {
-  display: flex;
-}
-
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  padding: 48px;
-  text-align: center;
-}
-
 .information {
-  padding: 32px 0 64px;
+  padding: 32px 16px 64px;
+  color: #1f2937;
 }
 
 .quote-content {
   width: 75%;
+  font-size: 36px;
+  font-weight: 300;
 }
 
 .quote {
@@ -59,6 +82,8 @@
   flex-direction: column;
   align-items: center;
   padding: 64px;
+  background-color: #e5e7eb;
+  color: #1f2937;
 }
 
 .quote-author {
@@ -66,5 +91,24 @@
 }
 
 .call-to-action {
-  padding: 64px 0;
+  padding: 64px 16px;
+}
+
+.cta-box {
+  display: flex;
+  background-color: #3882f6;
+  padding: 64px;
+  color: #f9faf8;
+  border-radius: 10px;
+}
+
+.cta-box .button {
+  border: #f9faf8 solid 1px;
+}
+
+.footer {
+  padding: 32px 0;
+  text-align: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
 }
